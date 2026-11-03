@@ -1,0 +1,30 @@
+# Исходные и готовые материалы
+/input/
+/output/
+/work/
+/models/
+*.mp4
+*.mov
+*.MOV
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.zip
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
