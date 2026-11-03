@@ -1,0 +1,32 @@
+{
+  "language": "ru",
+  "target_duration_seconds": 30,
+  "max_duration_seconds": 40,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "libx264",
+  "crf": 20,
+  "preset": "medium",
+  "pixel_format": "yuv420p",
+  "audio_codec": "aac",
+  "audio_bitrate": "192k",
+  "audio_sample_rate": 48000,
+  "audio_target_lufs": -16,
+  "audio_true_peak_db": -1.5,
+  "subtitles": {
+    "max_lines": 2,
+    "font_family": "DejaVu Sans",
+    "font_size_at_1080p": 56,
+    "side_margin_px": 90,
+    "bottom_margin_px": 360,
+    "accent_color": "#FFD54F"
+  },
+  "paths": {
+    "input": "input",
+    "output": "output",
+    "temporary": "work"
+  },
+  "style": "Уверенная экспертная подача, цепляющее начало, умеренный монтаж",
+  "music": "Только предоставленная или с проверенной лицензией; иначе без музыки"
+}
