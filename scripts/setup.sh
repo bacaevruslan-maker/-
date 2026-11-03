@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+bash scripts/setup.sh
 set -euo pipefail
 command -v python3 >/dev/null || { echo "Python 3 is required" >&2; exit 1; }
 if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
